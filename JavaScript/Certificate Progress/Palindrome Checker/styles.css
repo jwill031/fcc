@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);
+}
+
+.container {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #011031;
+    color: #ffffff;
+    margin: 300px auto 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#text-input, #text-input:active {
+    width: 80%;
+    margin: 10px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+}
+
+#check-btn {
+    height: 50px;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    background: #0f0355;
+    transition: 0.3s ease;
+}
+
+#check-btn:hover {
+    background: #100938;
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
